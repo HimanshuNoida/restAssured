@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="verifyOTP"/>
+      <class name="Banners"/>
+      <class name="warehouse_cookies"/>
+      <class name="show_collections"/>
+       <class name="view_all_collection_items"/>
+       <class name="get_items_by_subcategory"/>
+       <class name="get_all_subcategoris_for_category"/>
+       <class name="id"/>
+       <class name="Add_item_to_cart"/>
+        <class name="cod"/>
+       <class name="Delete_item_for_cart"/>            
+    </classes>
+  </test> <!-- Test -->	
+</suite> <!-- Suite -->

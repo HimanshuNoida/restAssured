@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="view_all_collection_items">
+        <methods>
+          <include name="view_all_collections"/>
+        </methods>
+      </class> <!-- view_all_collection_items -->
+      <class name="Add_item_to_cart">
+        <methods>
+          <include name="add_Item_To_Cart"/>
+        </methods>
+      </class> <!-- Add_item_to_cart -->
+      <class name="warehouse_cookies">
+        <methods>
+          <include name="cookie"/>
+        </methods>
+      </class> <!-- warehouse_cookies -->
+      <class name="cod">
+        <methods>
+          <include name="cod"/>
+        </methods>
+      </class> <!-- cod -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
